@@ -8,3 +8,7 @@
 #### 2.2 gridsearch
 
 # 3.n-gram
+
+# 4.svd
+#### 4.1 linalg下的矩阵分解
+#### 4.2 RSVD分解
