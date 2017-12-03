@@ -35,3 +35,6 @@
 #### 6.4 线性svm支持向量机
 #### 6.5 贝叶斯分类器
 #### 6.6 randomforest
+
+# 7.gradient_descent
+重写了梯度下降
