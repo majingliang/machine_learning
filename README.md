@@ -21,5 +21,14 @@
 重写了矩阵分解逻辑，并加入了正则化
 
 # 5.Collaborative Filtering Recommendation System 
-#### 5.1基于商品的协同过滤
-#### 5.2基于用户的协同过滤
+#### 5.1 基于商品的协同过滤
+#### 5.2 基于用户的协同过滤
+
+# 6.Semantic recognition
+基于用户的追加评论，判断用户是否有流失的可能
+#### 6.1 jieba分词
+#### 6.2 tf-idf
+#### 6.3 bp neural network
+#### 6.4 线性svm支持向量机
+#### 6.5 贝叶斯分类器
+#### 6.6 randomforest
