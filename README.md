@@ -38,3 +38,8 @@
 
 # 7.gradient_descent
 重写了梯度下降
+
+# 8.smote
+#### 8.1 mean:重心加权法
+#### 8.2 random：向量中随机位置
+详细理论见我的博客：[SMOTE算法](http://shataowei.com/2017/12/01/SMOTE算法/)
