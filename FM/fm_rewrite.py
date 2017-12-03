@@ -1,6 +1,13 @@
 #coding:UTF-8
-#__time__ = '20171201'
-#__author__ = 'sladesal'
+'''
+    __time__ = '20171201'
+    __author__ = 'sladesal'
+    __blog__ = 'www.shataowei.com'
+    alpha：学习速率
+    iter：数据循环的次数
+    dataMatrix：feature矩阵
+    classLabels：因变量列表
+'''
 
 #division代表精确到小数
 from __future__ import division
@@ -38,6 +45,7 @@ def sigmoid(inx):
     #return 1.0/(1+exp(min(max(-inx,-10),10)))
     return 1.0 / (1 + exp(-inx))
 
+#得到对应的特征weight的矩阵
 def stocGradAscent(dataMatrix, classLabels, k, iter):
     #dataMatrix用的是mat, classLabels是列表
     m, n = shape(dataMatrix)

@@ -1,6 +1,16 @@
 # fast_fm used in classification cases
-__author__ = 'sladesal'
-__time__ = '20171124'
+'''
+    __author__ = 'sladesal'
+    __time__ = '20171124'
+    __blog__ = 'www.shataowei.com'
+    rank：潜在因子的个数
+    n_iter：数据循环的次数
+    l2_reg_w：w矩阵的限制大小
+    l2_reg_V：v矩阵的限制大小
+    init_stdev：所有数据的方差限制
+    l2_reg：w0值
+    step_size：梯度下降的学习速率
+'''
 
 import pandas as pd
 import numpy as np
@@ -81,13 +91,6 @@ if __name__ == '__main__':
     feature = ohe(feature)
     # 定义分类器
     sf = sgd.FMClassification(n_iter=500, l2_reg_w=0.1, l2_reg_V=0.1, rank=20)
-    # rank：潜在因子的个数
-    # n_iter：数据循环的次数
-    # l2_reg_w：w矩阵的限制大小
-    # l2_reg_V：v矩阵的限制大小
-    # init_stdev：所有数据的方差限制
-    # l2_reg：w0值
-    # step_size：梯度下降的学习速率
     sf.fit(feature, tag)
     y_ = sf.predict(feature)
     y_p = sf.predict_proba(feature)
