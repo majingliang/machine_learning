@@ -15,16 +15,19 @@
 利用ngram的思想进行文本识别
 
 # 4.svd
+详细理论见我的博客：[SVD及扩展的矩阵分解方法](http://shataowei.com/2017/08/27/SVD及扩展的矩阵分解方法/)
 #### 4.1 linalg下的矩阵分解
 利用numpy里面的linalg进行矩阵分解
 #### 4.2 RSVD分解
 重写了矩阵分解逻辑，并加入了正则化
 
 # 5.Collaborative Filtering Recommendation System 
+详细理论见我的博客：[能够快速实现的协同推荐](http://shataowei.com/2017/12/01/能够快速实现的协同推荐/)
 #### 5.1 基于商品的协同过滤
 #### 5.2 基于用户的协同过滤
 
 # 6.Semantic recognition
+详细理论见我的博客：[基于自然语言识别下的流失用户预警](http://shataowei.com/2017/08/15/基于自然语言识别下的流失用户预警/)
 基于用户的追加评论，判断用户是否有流失的可能
 #### 6.1 jieba分词
 #### 6.2 tf-idf
