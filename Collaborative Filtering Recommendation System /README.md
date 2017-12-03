@@ -9,3 +9,6 @@
 #### 1.求出目标用户的邻居，并计算目标用户与邻居之间的相似度
 #### 2.列出邻居所以购买的商品列表
 #### 3.针对第二步求出了商品列表，累加所对应的用户相似度，并排序求top
+
+# 测试数据
+[u1.base](https://github.com/sladesha/machine_learning/tree/master/data)
