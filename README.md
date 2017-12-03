@@ -19,3 +19,7 @@
 利用numpy里面的linalg进行矩阵分解
 #### 4.2 RSVD分解
 重写了矩阵分解逻辑，并加入了正则化
+
+# 5.Collaborative Filtering Recommendation System 
+#### 5.1基于商品的协同过滤
+#### 5.2基于用户的协同过滤
