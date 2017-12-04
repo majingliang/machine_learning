@@ -8,12 +8,14 @@
 ￼![](http://upload-images.jianshu.io/upload_images/1129359-92da0691440d9857.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 3.fm
-讲第二步中的方法封装了一下，存放在了script里面的fm.py
+讲第二步中的方法封装了一下，存放在了script里面的fm.py。不方便pip的同学可以直接下载脚本调用。
 
 详细的例子参加example里面的test_sample_case.py
 
 # 4.package
-为了方便我打包了直接下载后使用：pip install fm_easy_run
+为了方便我打包到了pypi，直接下载后使用即可：
+
+**pip install fm_easy_run**
 
 ```
 from fm_easy_runn import fm
