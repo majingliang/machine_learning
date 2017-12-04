@@ -4,6 +4,8 @@
 调用fast_fm快速进行分类
 #### 1.2 fm_rewrite
 重写了fm的思路
+#### 1.3 封装了一下,打包到了pypi
+**pip install fm_easy_run**后使用
 
 # 2.xgboost
 #### 2.1 xgboost
