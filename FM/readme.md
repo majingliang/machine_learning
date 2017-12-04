@@ -11,3 +11,12 @@
 讲第二步中的方法封装了一下，存放在了script里面的fm.py
 
 详细的例子参加example里面的test_sample_case.py
+
+# 4.package
+为了方便我打包了直接下载后使用：pip install fm_easy_run
+
+```
+from fm_easy_runn import fm
+#fm.fit()
+#fm.predict()
+```
