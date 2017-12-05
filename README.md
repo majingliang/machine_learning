@@ -45,3 +45,7 @@
 #### 8.1 mean:重心加权法
 #### 8.2 random：向量中随机位置
 详细理论见我的博客：[SMOTE算法](http://shataowei.com/2017/12/01/SMOTE算法/)
+
+# 9.fast_risk_control
+#### 识别数据集中的异常数据点
+详细理论待补充
