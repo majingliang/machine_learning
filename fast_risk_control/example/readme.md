@@ -1,4 +1,4 @@
-# IllegalInput
+# IllegalInput Error:
 the input should be the format of dataframe，and first column should be the label column!
 输入数据需要是带列名的dataframe的格式，且第一列需要为index列，形如：
 ```
@@ -9,7 +9,7 @@ the input should be the format of dataframe，and first column should be the lab
 # 888.104.6.24	0.37666667	1	2	1
 ```
 
-# IllegalInputSize
+# IllegalInputSize Error:
 The input data amount cannot match the required size,Pls increase input data amount or increase the max_limit!
 计算切比雪夫不等式过程中数据量过小，或者max_limit过小，建议增加！
 
