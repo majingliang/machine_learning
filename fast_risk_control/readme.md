@@ -3,6 +3,14 @@
 
 # package
 为了方便大数据工程师同学快速使用，我打包上传到了[pypi](https://pypi.python.org/pypi?:action=display&name=fast_risk_control&version=0.0.1)，直接使用`pip install fast_risk_control`下载即可
+```
+#加载包
+from fast_risk_control import fast_risk_control
+
+#使用方法
+fast_risk_control.transform(data)
+```
+
 
 # example
 快速上手的case，我写在了example文件夹下，需要的可以对照尝试，包括一些error和warning的解释
