@@ -1,7 +1,7 @@
 # Introduction
 This project implement classic machine learning algorithms(ML). Motivations for this project includes:
-- Help machine learning freshman to have a better and deeper understanding of the basic algorithms and model in this field.
-- Provide the real-life and commercial executing methods in ML filed.
+- Helping machine learning freshman to have a better and deeper understanding of the basic algorithms and model in this field.
+- Providing the real-life and commercial executing methods in ML filed.
 - Keeping my Mathematics Theory and Coding ability fresh due to such cases. 
 
 # Overview
@@ -11,7 +11,7 @@ Show how to use the package of 'fast_fm' to classify the dataset.
 #### 1.2 fm_rewrite
 Follow the theory of FM , we write the python script by ourselves.
 #### 1.3 [fm_easy_run](https://pypi.python.org/pypi?:action=display&name=fm_easy_run&version=0.0.1)
-Used by : **pip install fm_easy_run**
+Used by : **pip install fm_easy_run**.
 
 ## 2.Xgboost
 #### 2.1 xgboost
@@ -20,7 +20,7 @@ Show how to use the package of 'xgboost' to classify the dataset.
 Show how to use the package of 'gridsearch' to select the best params of the 'xgboost' algorithm.
 
 ## 3.N-gram
-a interview problem solved by n-gram instead of Naive Bayes.
+An interview problem solved by n-gram instead of Naive Bayes.
 
 ## 4.Svd
 @bolg：[SVD及扩展的矩阵分解方法](http://shataowei.com/2017/08/27/SVD及扩展的矩阵分解方法/)
@@ -44,8 +44,8 @@ a interview problem solved by n-gram instead of Naive Bayes.
 ## 7.Gradient_descent
 
 ## 8.Smote
-#### 8.1 mean of the weight  
-#### 8.2 random scale in connected Vector
+#### 8.1 Mean of the weight  
+#### 8.2 Random scale in connected Vector
 @bolg：[SMOTE算法](http://shataowei.com/2017/12/01/SMOTE算法/)
 
 ## 9.fast_risk_control
@@ -53,9 +53,10 @@ a interview problem solved by n-gram instead of Naive Bayes.
 
 # Requirements
 Python Environment
+More details getting from single project requirement.
 
 # More
-If you find somewhere incorrect , i'm so sorry about that. PLS contact me by the following way:
+If you find some incorrect content, i'm so sorry about that. PLS contact me by the following way:
 - WeChat:sharalion
 - E-mail:stw386@sina.com
 - Message Board in my [bolg](http://shataowei.com)
