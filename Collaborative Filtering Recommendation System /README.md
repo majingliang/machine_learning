@@ -1,7 +1,7 @@
 # What is it
 just is a simple case of recommendation , completed by the method 'collaborative filtering recommendation'. It could be treated by as entry-level model in the recommendation field.
 
-# Overwrite:
+# Overview
 #### 
 # Item-based collaborative filtering recommendation
 - 0.one hot encoding process
@@ -15,8 +15,8 @@ just is a simple case of recommendation , completed by the method 'collaborative
 - 2.got the items list of the neighbours 
 - 3.cal the similarity by calculating the items similarity of the Target Customer's items 
 
-# Demodata:
+# Demodata
 [u1.base](https://github.com/sladesha/machine_learning/tree/master/data)
 
-# Dependencies:
+# Dependencies
 - math
