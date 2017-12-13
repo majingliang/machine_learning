@@ -1,14 +1,25 @@
-# 基于item的协同推荐
-#### 0.将用户行为程度离散化：浏览：1，搜索：2，收藏：3，加车：4，下单未支付5
-#### 1.计算item之间的相似度：item共同观看次数/单item次数连乘
-#### 2.寻找目标用户观看过的item相关的其他item列表
-#### 3.计算其他item的得分：相似度*用户行为程度，求和
+# What is it
+just is a simple case of recommendation , completed by the method 'collaborative filtering recommendation'. It could be treated by as entry-level model in the recommendation field.
 
-# 基于用户的协同推荐
-#### 0.先通过hive求出近一段时间（根据业务频率定义），用户商品的对应表
-#### 1.求出目标用户的邻居，并计算目标用户与邻居之间的相似度
-#### 2.列出邻居所以购买的商品列表
-#### 3.针对第二步求出了商品列表，累加所对应的用户相似度，并排序求top
+# Theory:
+@bolg:[FM](http://shataowei.com/2017/12/04/FM理论解析及应用/)
 
-# 测试数据
+# Overwrite:
+#### 
+# Item-based collaborative filtering recommendation
+- 0.one hot encoding process
+- 1.cal the similarity between items
+- 2.search the related items viewed by users in the past 
+- 3.cal the similarity between the viewed items and related items
+
+#### User-based collaborative filtering recommendation
+- 0.got the user-item matrix first
+- 1.acorrding to the neighbours of the Target Customer，cal the similarity
+- 2.got the items list of the neighbours 
+- 3.cal the similarity by calculating the items similarity of the Target Customer's items 
+
+# Demodata:
 [u1.base](https://github.com/sladesha/machine_learning/tree/master/data)
+
+# Dependencies:
+- math
