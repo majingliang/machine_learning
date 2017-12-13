@@ -1,4 +1,4 @@
-# What is fast_risk_control
+# What is fast_risk_control?
 It's a lightweight tool that automatic recognize the outliers from a large data pool. ALL u need to do is making the data into a dataframe with columns. This project aims to help people get easily method with abnormal recognition, especially forces password attacks.We wish it could be a nice Open Source which could simplify the complexity of the Data Feature Project.  
 
 # Theory
@@ -29,8 +29,8 @@ fast_risk_control is implemented in Python 3.6, use Pandas.DataFrame to store da
 - [多算法识别撞库刷券等异常用户](http://shataowei.com/2017/12/01/多算法识别撞库刷券等异常用户/)
 
 # Release
-#### V0.0.2 : increase some function.
-#### V0.0.3 : increase the method at small data.
+- V0.0.2 : increase some function.
+- V0.0.3 : increase the method at small data.
 
 # TO-DO
 - feature scanning
