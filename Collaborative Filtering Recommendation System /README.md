@@ -2,8 +2,7 @@
 just is a simple case of recommendation , completed by the method 'collaborative filtering recommendation'. It could be treated by as entry-level model in the recommendation field.
 
 # Overview
-#### 
-# Item-based collaborative filtering recommendation
+#### Item-based collaborative filtering recommendation
 - 0.one hot encoding process
 - 1.cal the similarity between items
 - 2.search the related items viewed by users in the past 

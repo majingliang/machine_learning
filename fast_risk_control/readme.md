@@ -1,5 +1,5 @@
 # What is fast_risk_control
-It's a lightweight tool that automatic recognize the outliers from a large data pool. ALL u need to do is making the data into a dataframe with columns. This project aims to help people get easily method with abnormal recognition, especially force password attacks.We wish it could be an Open Source which could simplify the cost of the Data Feature Project.  
+It's a lightweight tool that automatic recognize the outliers from a large data pool. ALL u need to do is making the data into a dataframe with columns. This project aims to help people get easily method with abnormal recognition, especially forces password attacks.We wish it could be an Open Source which could simplify the cost of the Data Feature Project.  
 
 # Theory
 **@bolg:[fast_risk_control](http://shataowei.com/2017/12/09/风控用户识别方法/)**
