@@ -21,12 +21,12 @@ fast_risk_control.transform(data)
 
 # Dependence
 fast_risk_control is implemented in Python 3.6, use Pandas.DataFrame to store data. These package can be easily installed using pip.
-## [isolation forest地址](https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/ensemble/iforest.py)
-## [pandas、numpy下载地址](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
+- [isolation forest地址](https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/ensemble/iforest.py)
+- [pandas、numpy下载地址](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
 
 # Reference：
-[数据预处理-异常值识别](http://shataowei.com/2017/08/09/数据预处理-异常值识别/)
-[多算法识别撞库刷券等异常用户](http://shataowei.com/2017/12/01/多算法识别撞库刷券等异常用户/)
+- [数据预处理-异常值识别](http://shataowei.com/2017/08/09/数据预处理-异常值识别/)
+- [多算法识别撞库刷券等异常用户](http://shataowei.com/2017/12/01/多算法识别撞库刷券等异常用户/)
 
 # Release
 #### V0.0.2 : increase some function.
