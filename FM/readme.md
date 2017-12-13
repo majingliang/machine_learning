@@ -1,20 +1,25 @@
-用了两种方式用fm来解决分类问题：
+# What is it?
+It is a linear model, based on the crossed parameters. This project aims to help people get deeper insights into FM, especially Crossed Parameters Training. 
 
-# 1.fast_fm_classification
-接调用fastfm的包，这个存在一个问题，就是input需要是稀疏矩阵，所以如果input是连续值的话，需要做切分，影响最后的效果
-
-# 2.fm_rewrite
-重写了fm，可以接受连续变量，但是跑的时间有点久，基于随机梯度下降的方法进行求解：
+# Theory
+@bolg:[FM](http://shataowei.com/2017/12/04/FM理论解析及应用/)
 ￼![](http://upload-images.jianshu.io/upload_images/1129359-92da0691440d9857.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-# 3.fm
-讲第二步中的方法封装了一下，存放在了script里面的fm.py。不方便pip的同学可以直接下载脚本调用。
+# Overview
+#### 1.fast_fm_classification
+Train by the package 'fastfm' directly.
+It is important to note that the input of fastfm should be sparse data. If u got the large amount of continues features,you'll be trouble with the data preprocessing.
 
-详细的例子参加example里面的test_sample_case.py
+#### 2.fm_rewrite
+We rewrite fm by ourselves and focus helping people get deeper insights about FM.We use the sgd in solving the problems. The good news is we can use the continuous variable directly but the speed is a trouble.
 
-# 4.package
-为了方便我打包到了pypi，直接下载后使用即可：
+# Dependencies
+- pandas
+- numpy
+- math
+- sklearn.preprocessing
 
+# Useage:
 **pip install fm_easy_run**
 
 ```
@@ -22,3 +27,9 @@ from fm_easy_runn import fm
 #fm.fit()
 #fm.predict()
 ```
+
+U can get more from the *example* folder.
+
+# TODO
+- speed up training and predicting
+- get it more official,now it's just a demo-like. 

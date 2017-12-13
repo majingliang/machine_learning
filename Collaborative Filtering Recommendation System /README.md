@@ -1,9 +1,6 @@
 # What is it
 just is a simple case of recommendation , completed by the method 'collaborative filtering recommendation'. It could be treated by as entry-level model in the recommendation field.
 
-# Theory:
-@bolg:[FM](http://shataowei.com/2017/12/04/FM理论解析及应用/)
-
 # Overwrite:
 #### 
 # Item-based collaborative filtering recommendation
