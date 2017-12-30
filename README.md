@@ -44,6 +44,7 @@ An interview problem in 'Nlp' solved by n-gram instead of Naive Bayes.
 ****
 ### 8.Frcwp
 @bolg：[风控用户识别方法](http://shataowei.com/2017/12/09/风控用户识别方法/)
+
 It means fast risk control with python.It's a lightweight tool that automatic recognize the outliers from a large data pool. 
 
 ****
