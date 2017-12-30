@@ -35,12 +35,14 @@ And to be honest,the second article is a little bit hard than the first one. For
 # Data
 You can get them at folder:machine_learning/data/ easily
 - ensemble_data.txt
+
 The initial data , you need transfer them by the script Data_preprocessing.py
 ****
 - ensemble_X_train.csv
 - ensemble_X_test.csv
 - ensemble_Y_train.csv
 - ensemble_Y_test.csv
+
 They be transfered by the initial data , you need train the ensemble models with them
 ****
 - enc.pkl
@@ -49,6 +51,7 @@ They be transfered by the initial data , you need train the ensemble models with
 - model_lr.pkl
 - model_sklearn.pkl
 - train_columns.pkl
+
 We got them by train the model : Stacking_xgboost_logistic_regression , and deploy them with Demo_with_trained_models.py
 
 
