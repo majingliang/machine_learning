@@ -6,12 +6,10 @@ This project implement classic machine learning algorithms(ML). Motivations for 
 
 # Overview
 ### 1.FM
-#### 1.1 fast_fm
-Show how to use the package of 'fast_fm' to classify the dataset.
-#### 1.2 fm_rewrite
-Follow the theory of FM , we write the python script by ourselves.
-#### 1.3 [fm_easy_run](https://pypi.python.org/pypi?:action=display&name=fm_easy_run&version=0.0.1)
-Used by : **pip install fm_easy_run**.
+#### 1.1 fastfm
+Show how to use the package of `fast_fm` to classify the training data directly.
+#### 1.2 Fsfm
+We rewrite fm by ourselves and focus helping people get deeper insights about FM.So we upload it to the pypi named `Fsfm`,you can downlode it if you're interested in it.
 
 ### 2.N-gram
 An interview problem solved by n-gram instead of Naive Bayes.
