@@ -56,4 +56,5 @@ We got them by training the model : Stacking_xgboost_logistic_regression , and d
 
 
 
+**For some ulterior reasons, i skip some codes among the codes. U know why~:)**
 **Thank u for reading , wish u a nice start**

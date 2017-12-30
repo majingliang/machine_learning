@@ -63,7 +63,7 @@ train_index = n_index_num[:break_point]
 X_train_xgb_3 = X_train.iloc[train_index, :]
 Y_train_xgb_3 = Y_train[train_index]
 
-# feature sample
+# features sample
 feature_num = list(range(X_train_xgb_1.shape[1]))
 random.shuffle(feature_num)
 X_train_xgb_1 = X_train_xgb_1.iloc[:, feature_num[:int(len(feature_num) * 0.8)]]

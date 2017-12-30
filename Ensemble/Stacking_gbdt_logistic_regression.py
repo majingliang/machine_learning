@@ -39,7 +39,7 @@ y_predprob = gbm0.predict_proba(X_test)[:, 1]
 metrics_spec(Y_test, y_predprob)
 
 # get the n_estimators and learning_rate ,but here is gbdt , only n_estimators
-# if necessary ,increasing param:cv can increase the Confidence degree of the current model's result
+# if necessary ,increasing param:cv can increase the confidence degree of the current model's result
 param_test1 = {'n_estimators': [10, 50, 100, 300, 500]}
 gsearch1 = GridSearchCV(estimator=GradientBoostingClassifier(random_state=10),
                         param_grid=param_test1, scoring='roc_auc', iid=False, cv=2)

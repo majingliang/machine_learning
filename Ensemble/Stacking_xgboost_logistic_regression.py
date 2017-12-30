@@ -53,9 +53,7 @@ gsearch = GridSearchCV(
 gsearch.fit(X_train, Y_train)
 print(gsearch.best_params_)
 # {'learning_rate': 0.1, 'n_estimators': 100}
-# the result here should also consider the speed of each train process,sometimes we can sacrifice some effect. but don't worry,we can retrain the two param at last if needed
-
-
+# we should also consider the training speed of each process,sometimes we can sacrifice some effect to improve the speed. but don't worry , you can also retrain the two param at last if needed
 
 
 # get subsample next
@@ -78,10 +76,10 @@ gsearch1.fit(X_train, Y_train)
 print(gsearch1.best_params_)
 # {'subsample': 0.7}
 
-# if you want your model more accurate , you can calculate the accurate at your test set after each train process
-# Compared with the last time at your test set if the accuracy rate decline, you should follow actions from the article guide 'Kaggle-TianChi分类问题相关纯算法理论剖析'
+# if you want your model more accurate , you can calculate the accuration at your test set after each training process
+# Compared with the last time at your test set if the accuracy rate decline, you should follow actions from the article guide 'Kaggle-TianChi分类问题相关纯算法理论剖析' to adjust the params
 
-# i have train the max_leaf_nodes and min_weight_fraction_leaf privately but it doesn't work ,so we skip it.get min_samples_split and max_depth result directly
+# i have train the max_leaf_nodes and min_weight_fraction_leaf privately but it doesn't work ,so we skip it. get min_samples_split and max_depth result directly
 param_test2 = {
     'max_depth': [3, 5, 7],
     'min_child_weight': [0.8, 1, 1.2]
@@ -127,7 +125,7 @@ gsearch3.fit(X_train, Y_train)
 print(gsearch3.best_params_)
 # {'colsample_bytree': 0.7}
 
-# reg_lambda and reg_alpha at least
+# reg_lambda and reg_alpha at last
 param_test4 = {
     'reg_lambda': [0.1, 0.3, 0.9, 3],
     'reg_alpha': [0.1, 0.3, 0.9, 3]
@@ -153,7 +151,7 @@ print(gsearch4.best_params_)
 # {'reg_alpha': 0.3, 'reg_lambda': 0.1}
 
 
-# for short, we skip the way of training the max_features and the way of training the pairs between eta and n_estimators,but if u want to train a nice model these ways should be added at your process.
+# for short, we skip the process of training the max_features and the process of training the pairs between learning_rate and n_estimators,but if u want to train a nice model these ways should be added at your process.
 # with the same reason，i skip the code '鞍点逃逸' and '极限探索' ,follow the methods mentioned at the article 'Kaggle&TianChi分类问题相关纯算法理论剖析' ,try it by yourself
 
 # define the final param
@@ -190,7 +188,7 @@ res_data.columns = ['f' + str(x) for x in range(res_data.shape[1])]
 res_test = pd.DataFrame(np.c_[Y_test, test_new_feature2])
 res_test.columns = ['f' + str(x) for x in range(res_test.shape[1])]
 
-# stacking a model , it can be logistic or fm, nerual network and they came to be beyond all expectations
+# stacking a model , it can be logistic or fm, nerual network and they  will come to be beyond all expectations
 # attention points of the stacking model can be obtained from the article mentioned at the top of the code
 lr = LogisticRegression(C=1, penalty='l2', max_iter=100, solver='sag', multi_class='ovr')
 model_lr = lr.fit(res_data.iloc[:, 1:], res_data['f0'])
@@ -198,7 +196,7 @@ y_train_lr = model_lr.predict_proba(res_data.iloc[:, 1:])[:, 1]
 y_test_lr = model_lr.predict_proba(res_test.iloc[:, 1:])[:, 1]
 res = metrics_spec(Y_test, y_test_lr)
 correct_rank = X_train.columns
-# (0.70846394984326022, 0.71500000000000004)
+
 
 
 # save models, you will load them if u want to deploy a trained model
