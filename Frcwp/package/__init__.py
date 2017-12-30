@@ -1,2 +1,2 @@
-from .fast_risk_control import fast_risk_control
-fast_risk_control = fast_risk_control()
+from .Frcwp import Frcwp
+Frcwp = Frcwp()

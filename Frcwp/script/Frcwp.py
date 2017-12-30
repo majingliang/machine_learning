@@ -39,7 +39,7 @@ except:
 '''
 
 
-class fast_risk_control(object):
+class Frcwp(object):
     def __init__(self):
         self.train_data_res = None
         self.max_limit = None
