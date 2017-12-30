@@ -22,8 +22,8 @@ And to be honest,the second article is a little bit hard than the first one. For
 
 # Reading flow
 - Data_preprocessing first, you can skip as well ,it targets to transform the data and i upload the transformed data to the data folder already. 
-- Bagingg_tuning,Stacking_gbdt_logistic_regression or Stacking_xgboost_logistic_regression any one is ok
-- Demo_with_trained_models
+- Bagingg_tuning,Stacking_gbdt_logistic_regression or Stacking_xgboost_logistic_regression
+- Deployment_with_trained_models
 
 # Dependence
 - pandas
@@ -52,7 +52,7 @@ They be transfered by the initial data , you need train the ensemble models with
 - model_sklearn.pkl
 - train_columns.pkl
 
-We got them by train the model : Stacking_xgboost_logistic_regression , and deploy them with Demo_with_trained_models.py
+We got them by train the model : Stacking_xgboost_logistic_regression , and deploy them with Deployment_with_trained_models.py
 
 
 
