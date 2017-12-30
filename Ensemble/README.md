@@ -17,13 +17,13 @@ And to be honest,the second article is a little bit hard than the first one. For
   
 # Important tips
 - All these codes (Bagging_tuning、Stacking_gbdt_logistic_regression、Stacking_gbdt_logistic_regression) just show how to tuning a good ensemble model ,they may be not at the best params.
-- Be patient with the notes during the lines of the codes
-- the input data maked by me randomly , it's meaningless
+- Be patient with the code annotation
+- The input data structured by me randomly , it's meaningless
 
 # Reading flow
-- Data_preprocessing first, you can skip as well ,it targets to transform the data and i upload the transformed data to the data folder already. 
+- Data_preprocessing first, you can skip as well ,it targets to transform the data and it was uploaded into the data folder already. 
 - Bagingg_tuning,Stacking_gbdt_logistic_regression or Stacking_xgboost_logistic_regression
-- Deployment_with_trained_models
+- Deployment_with_trained_models , it shows how to deploy trained models and can be ignored as well
 
 # Dependence
 - pandas
@@ -33,7 +33,7 @@ And to be honest,the second article is a little bit hard than the first one. For
 - sklearn
 
 # Data
-You can get them at folder:machine_learning/data/ easily
+You can get them all at folder : machine_learning/data/ easily
 - ensemble_data.txt
 
 The initial data , you need transfer them by the script Data_preprocessing.py
@@ -52,7 +52,7 @@ They be transfered by the initial data , you need train the ensemble models with
 - model_sklearn.pkl
 - train_columns.pkl
 
-We got them by train the model : Stacking_xgboost_logistic_regression , and deploy them with Deployment_with_trained_models.py
+We got them by training the model : Stacking_xgboost_logistic_regression , and deploy them with Deployment_with_trained_models.py
 
 
 
