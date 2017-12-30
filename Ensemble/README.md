@@ -55,4 +55,5 @@ They be transfered by the initial data , you need train the ensemble models with
 We got them by train the model : Stacking_xgboost_logistic_regression , and deploy them with Demo_with_trained_models.py
 
 
-Thank u for reading,wish u a nice start.
+
+** Thank u for reading,wish u a nice start **
