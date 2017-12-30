@@ -10,20 +10,20 @@ This project implement classic machine learning algorithms(ML). Motivations for 
 Show how to use the package of `fast_fm` to classify the training data directly.
 #### 1.2 Fsfm
 We rewrite fm by ourselves and focus helping people get deeper insights about FM.So we upload it to the pypi named `Fsfm`,you can downlode it if you're interested in it.
-
+****
 ### 2.N-gram
 An interview problem solved by n-gram instead of Naive Bayes.
-
+****
 ### 3.Svd
 @bolg：[SVD及扩展的矩阵分解方法](http://shataowei.com/2017/08/27/SVD及扩展的矩阵分解方法/)
 #### 3.1 Matrix decomposition in linalg
 #### 3.2 Matrix decomposition with RSVD 
-
+****
 ### 4.Collaborative Filtering Recommendation System 
 @bolg：[能够快速实现的协同推荐](http://shataowei.com/2017/12/01/能够快速实现的协同推荐/)
 #### 4.1 Base of Item
 #### 4.2 Base of User
-
+****
 ### 5.Semantic recognition
 @bolg：[基于自然语言识别下的流失用户预警](http://shataowei.com/2017/08/15/基于自然语言识别下的流失用户预警/)
 #### 5.1 Jieba Process
@@ -32,18 +32,18 @@ An interview problem solved by n-gram instead of Naive Bayes.
 #### 5.4 SVM process
 #### 5.5 Naive Bayes
 #### 5.6 RandomForest
-
+****
 ### 6.Gradient_descent
-
+****
 ### 7.Smote
 #### 7.1 Mean of the weight  
 #### 7.2 Random scale in connected Vector
 @bolg：[SMOTE算法](http://shataowei.com/2017/12/01/SMOTE算法/)
-
+****
 ### 8.Frcwp
 It means fast risk control with python.It's a lightweight tool that automatic recognize the outliers from a large data pool. 
 @bolg：[风控用户识别方法](http://shataowei.com/2017/12/09/风控用户识别方法/)
-
+****
 ### 9.Ensemble
 #### 9.1 Data preprocessing before ensemble 
 #### 9.2 Case showed by stacking xgboost and logistic regression
