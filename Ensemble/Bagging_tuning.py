@@ -129,6 +129,7 @@ X_train_gbdt_2 = X_train_gbdt_2.iloc[:, feature_num[:int(len(feature_num) * 0.8)
 random.shuffle(feature_num)
 X_train_gbdt_3 = X_train_gbdt_3.iloc[:, feature_num[:int(len(feature_num) * 0.8)]]
 
+# warn again, you should train each model carefully here ,i skip these for cutting length of the code
 gbdt1 = GradientBoostingClassifier(
     loss='deviance'
     , learning_rate=0.01
