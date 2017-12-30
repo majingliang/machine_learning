@@ -26,6 +26,7 @@ We use the sgd in solving the problems. The good news is we can use the continuo
 
 ```
 from Fsfm import fm
+fm = fm()
 #fm.fit()
 #fm.predict()
 ```
