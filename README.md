@@ -42,7 +42,8 @@ An interview problem solved by n-gram instead of Naive Bayes.
 #### 7.2 Random scale in connected Vector
 @bolg：[SMOTE算法](http://shataowei.com/2017/12/01/SMOTE算法/)
 
-### 8.fast_risk_control
+### 8.Frcwp
+It means fast risk control with python.It's a lightweight tool that automatic recognize the outliers from a large data pool. 
 @bolg：[风控用户识别方法](http://shataowei.com/2017/12/09/风控用户识别方法/)
 
 ### 9.Ensemble
