@@ -1,4 +1,4 @@
-# What can we get from these codes?
+# What can we get from Ensemble Project?
 Motivations for this project includes:
 - How to get a sample bagging or stacking model with demos?
 - How to tune the a large number of the params of them with demos?
