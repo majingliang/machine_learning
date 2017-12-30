@@ -103,7 +103,7 @@ metrics_spec(Y_test, y_xgbs_3)
 y_xgbs = (y_xgbs_1 + y_xgbs_2 + y_xgbs_3) / 3
 metrics_spec(Y_test, y_xgbs)
 
-# the same way to train the (merged)gbdts , so i skip the notes here
+# bagging case 2:the same way to train the (merged)gbdts , so i skip the notes here
 n_index_num = list(range(X_train.shape[0]))
 random.shuffle(n_index_num)
 break_point = int(len(n_index_num) * 0.7)
@@ -157,6 +157,8 @@ metrics_spec(Y_test, y_gbdts_3)
 y_gbdts = (y_gbdts_1 + y_gbdts_2 + y_gbdts_3) / 3
 metrics_spec(Y_test, y_gbdts)
 
+
+# bagging case 3:
 # what's more,we can also merge the bagging models into anther bagging model such as (merged)gboosts + (merged)gdbts
 for i in range(1, 10):
     rate = i / 10.0
