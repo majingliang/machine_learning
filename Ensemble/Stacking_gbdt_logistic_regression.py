@@ -80,7 +80,7 @@ gbm1.fit(X_train, Y_train)
 y_predprob = gbm1.predict_proba(X_test)[:, 1]
 metrics_spec(Y_test, y_predprob)
 
-# we can the spare leaf nodes for the input of stacking
+# we can the get spare leaf nodes for the input of stacking
 train_new_feature = gbm1.apply(X_train)
 test_new_feature = gbm1.apply(X_test)
 train_new_feature = train_new_feature.reshape(-1, 50)
@@ -90,7 +90,7 @@ enc.fit(train_new_feature)
 train_new_feature2 = np.array(enc.transform(train_new_feature).toarray())
 test_new_feature2 = np.array(enc.transform(test_new_feature).toarray())
 
-# stacking a model , it can be logistic or fm, nerual network and they came to be beyond all expectations
+# stacking a model , it can be logisticRegression or fm, nerual network and they will come to be beyond all expectations
 # attention points of the stacking model can be obtained from the article mentioned at the top of the code
 lr = LogisticRegression(C=1, penalty='l1', max_iter=100, solver='liblinear', multi_class='ovr')
 model_lr = lr.fit(train_new_feature2, Y_train)
