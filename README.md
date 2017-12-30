@@ -14,7 +14,7 @@ Show how to use the package of `fast_fm` to classify the training data directly.
 We rewrite fm by ourselves and focus helping people get deeper insights about FM.So we upload it to the pypi named `Fsfm`,you can downlode it if you're interested in it.
 ****
 ### 2.N-gram
-An interview problem solved by n-gram instead of Naive Bayes.
+An interview problem in 'Nlp' solved by n-gram instead of Naive Bayes.
 ****
 ### 3.Svd
 @bolg：[SVD及扩展的矩阵分解方法](http://shataowei.com/2017/08/27/SVD及扩展的矩阵分解方法/)
@@ -38,15 +38,21 @@ An interview problem solved by n-gram instead of Naive Bayes.
 ### 6.Gradient_descent
 ****
 ### 7.Smote
+@bolg：[SMOTE算法](http://shataowei.com/2017/12/01/SMOTE算法/)
 #### 7.1 Mean of the weight  
 #### 7.2 Random scale in connected Vector
-@bolg：[SMOTE算法](http://shataowei.com/2017/12/01/SMOTE算法/)
 ****
 ### 8.Frcwp
-It means fast risk control with python.It's a lightweight tool that automatic recognize the outliers from a large data pool. 
 @bolg：[风控用户识别方法](http://shataowei.com/2017/12/09/风控用户识别方法/)
+It means fast risk control with python.It's a lightweight tool that automatic recognize the outliers from a large data pool. 
+
 ****
 ### 9.Ensemble
+@bolg:[Kaggle&TianChi分类问题相关算法快速实现
+](http://shataowei.com/2017/12/28/Kaggle-TianChi分类问题相关算法快速实现/)
+
+@bolg:[Kaggle&TianChi分类问题相关纯算法理论剖析
+](http://shataowei.com/2017/12/30/Kaggle-TianChi分类问题相关纯算法理论剖析/)
 #### 9.1 Data preprocessing before ensemble 
 #### 9.2 Case showed by stacking xgboost and logistic regression
 #### 9.3 Case showed by stacking gbdt and logistic regression
