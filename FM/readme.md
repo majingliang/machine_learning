@@ -7,12 +7,13 @@ It is a linear model, based on the crossed parameters. This project aims to help
 ￼![](http://upload-images.jianshu.io/upload_images/1129359-92da0691440d9857.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # Overview
-#### 1.fast_fm_classification
-Train by the package 'fastfm' directly.
-It is important to note that the input of fastfm should be sparse data. If u got the large amount of continues features,you'll be trouble with the data preprocessing.
+#### 1.fastfm
+Train by the package `fastfm` directly at fastfm_demo.
+It is important to note that the input of `fastfm` should be sparse data. If u got the large amount of continues features,you'll be trouble with the data preprocessing.
 
-#### 2.fm_rewrite
-We rewrite fm by ourselves and focus helping people get deeper insights about FM.We use the sgd in solving the problems. The good news is we can use the continuous variable directly but the speed is a trouble.
+#### 2.Fsfm
+We rewrite fm by ourselves and focus helping people get deeper insights about FM.So we upload it to the pypi named 'Fsfm',you can downlode it if you're interested in it.
+We use the sgd in solving the problems. The good news is we can use the continuous variable directly but the speed is a trouble.
 
 # Dependencies
 - pandas
@@ -21,10 +22,10 @@ We rewrite fm by ourselves and focus helping people get deeper insights about FM
 - sklearn.preprocessing
 
 # Useage:
-**pip install fm_easy_run**
+**pip install Fsfm**
 
 ```
-from fm_easy_runn import fm
+from Fsfm import fm
 #fm.fit()
 #fm.predict()
 ```

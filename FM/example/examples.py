@@ -1,17 +1,16 @@
 import pandas as pd
 import numpy as np
 import sys
-sys.path.append('/Users/slade/Documents/GitHub/machine_learning/FM/script/')
+from Fsfm import fm
 
-from fm import fm
 #local path
-path = '/Users/slade/Documents/GitHub/machine_learning/data/data_all.txt'
+path = 'data_all.txt'
 
 #create model
-model = fm(iter = 1)
+model = fm()
 
 #fit
-model.fit(path)
+model.fit(path,iter=1)
 # In [11]: model.fit(a)
 # the no 0 times, the loss arrach 正方向
 
