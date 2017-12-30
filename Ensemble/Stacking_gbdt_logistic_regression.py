@@ -30,15 +30,15 @@ def metrics_spec(actual_data, predict_data, cutoff=0.5):
     return res1, res2
 
 
-# if you have read the article 'Kaggle-TianChi分类问题相关纯算法理论剖析', you may know the suggest tuning way , let's follow
+# if you have read the article 'Kaggle-TianChi分类问题相关纯算法理论剖析', you may know the suggestion of tuning methods , let's follow
 
-# get the base line firest
+# get the base line first
 gbm0 = GradientBoostingClassifier(random_state=10)
 gbm0.fit(X_train, Y_train)
 y_predprob = gbm0.predict_proba(X_test)[:, 1]
 metrics_spec(Y_test, y_predprob)
 
-# get the n_estimators and learning_rate first ,but here is gbdt , only n_estimators
+# get the n_estimators and learning_rate ,but here is gbdt , only n_estimators
 # if necessary ,increasing param:cv can increase the Confidence degree of the current model's result
 param_test1 = {'n_estimators': [10, 50, 100, 300, 500]}
 gsearch1 = GridSearchCV(estimator=GradientBoostingClassifier(random_state=10),
@@ -61,7 +61,7 @@ print(gsearch2.best_params_)
 # print(gsearch2.best_params_)
 # {'subsample': 0.6}
 
-# i have train the max_leaf_nodes and min_weight_fraction_leaf privately but it doesn't work ,so we skip it.get min_samples_split and max_depth directly
+# i have train the max_leaf_nodes and min_weight_fraction_leaf privately but it doesn't work ,so we skip it.Get min_samples_split and max_depth result directly
 param_test3 = {'min_samples_split': [400, 900, 1300],
                'max_depth': [3, 5, 7, 9]
                }
@@ -72,7 +72,8 @@ gsearch3.fit(X_train, Y_train)
 print(gsearch3.best_params_)
 # {'max_depth': 7, 'min_samples_split': 900}
 
-# For short, we skip the way of training the max_features and the way of training the pairs between eta and n_estimators,but if u want to train a nice model these ways should be added at your process.
+# for short, we skip the process of training the max_features and '鞍点逃逸' and '极限探索',but if u want to train a nice model these ways should be added at your process
+# to be frank ,it takes to much time
 gbm1 = GradientBoostingClassifier(n_estimators=50, random_state=10, subsample=0.6, max_depth=7,
                                   min_samples_split=900)
 gbm1.fit(X_train, Y_train)
@@ -89,8 +90,8 @@ enc.fit(train_new_feature)
 train_new_feature2 = np.array(enc.transform(train_new_feature).toarray())
 test_new_feature2 = np.array(enc.transform(test_new_feature).toarray())
 
-# stacking a model , it can be logistic or fm, i even try the nerual network and it came to be beyond all expectations
-# Attention points of the stacking model can be obtained from the article mentioned at the top of the code
+# stacking a model , it can be logistic or fm, nerual network and they came to be beyond all expectations
+# attention points of the stacking model can be obtained from the article mentioned at the top of the code
 lr = LogisticRegression(C=1, penalty='l1', max_iter=100, solver='liblinear', multi_class='ovr')
 model_lr = lr.fit(train_new_feature2, Y_train)
 y_test_lr = model_lr.predict_proba(test_new_feature2)[:, 1]

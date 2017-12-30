@@ -30,11 +30,11 @@ def metrics_spec(actual_data, predict_data, cutoff=0.5):
     return res1, res2
 
 
-# if you have read the article 'Kaggle-TianChi分类问题相关纯算法理论剖析', you may know the suggest tuning way , let's follow
+# if you have read the article 'Kaggle-TianChi分类问题相关纯算法理论剖析', you may know the suggestion of tuning methods , let's follow
 
 # you can adjust scale_weight_suggestion = (len(Y_train) - Y_train.sum()) / Y_train.sum() to balance your scale between positive cases and negtive cases
 # get the n_estimators and learning_rate first
-# if necessary ,increasing param:cv can increase the Confidence degree of the current model's result
+# if necessary ,increasing param:cv can increase the confidence degree of the current model's result
 param_test = {
     'learning_rate': [0.1, 0.3, 0.9],
     'n_estimators': [50, 100, 300, 500]
@@ -53,7 +53,7 @@ gsearch = GridSearchCV(
 gsearch.fit(X_train, Y_train)
 print(gsearch.best_params_)
 # {'learning_rate': 0.1, 'n_estimators': 100}
-# the result here should also consider the speed each train process,sometimes we can sacrifice some effect. but don't worry,we can retrain the two param at last
+# the result here should also consider the speed of each train process,sometimes we can sacrifice some effect. but don't worry,we can retrain the two param at last if needed
 
 
 
@@ -81,7 +81,7 @@ print(gsearch1.best_params_)
 # if you want your model more accurate , you can calculate the accurate at your test set after each train process
 # Compared with the last time at your test set if the accuracy rate decline, you should follow actions from the article guide 'Kaggle-TianChi分类问题相关纯算法理论剖析'
 
-# i have train the max_leaf_nodes and min_weight_fraction_leaf privately but it doesn't work ,so we skip it.get min_samples_split and max_depth directly
+# i have train the max_leaf_nodes and min_weight_fraction_leaf privately but it doesn't work ,so we skip it.get min_samples_split and max_depth result directly
 param_test2 = {
     'max_depth': [3, 5, 7],
     'min_child_weight': [0.8, 1, 1.2]
@@ -153,8 +153,8 @@ print(gsearch4.best_params_)
 # {'reg_alpha': 0.3, 'reg_lambda': 0.1}
 
 
-# For short, we skip the way of training the max_features and the way of training the pairs between eta and n_estimators,but if u want to train a nice model these ways should be added at your process.
-# With the same reason，i skip the code '鞍点逃逸' and '极限探索' ,follow the methods mentioned at the article 'Kaggle&TianChi分类问题相关纯算法理论剖析' ,try it by yourself
+# for short, we skip the way of training the max_features and the way of training the pairs between eta and n_estimators,but if u want to train a nice model these ways should be added at your process.
+# with the same reason，i skip the code '鞍点逃逸' and '极限探索' ,follow the methods mentioned at the article 'Kaggle&TianChi分类问题相关纯算法理论剖析' ,try it by yourself
 
 # define the final param
 clf = XGBClassifier(
@@ -178,7 +178,7 @@ metrics_spec(Y_train, model_sklearn.predict_proba(X_train)[:, 1])
 metrics_spec(Y_test, y_bst)
 
 # make new features
-# we can the spare leaf nodes for the input of stacking
+# we can get the spare leaf nodes for the input of stacking
 train_new_feature = clf.apply(X_train)
 test_new_feature = clf.apply(X_test)
 enc = OneHotEncoder()
@@ -190,8 +190,8 @@ res_data.columns = ['f' + str(x) for x in range(res_data.shape[1])]
 res_test = pd.DataFrame(np.c_[Y_test, test_new_feature2])
 res_test.columns = ['f' + str(x) for x in range(res_test.shape[1])]
 
-# stacking a model , it can be logistic or fm, i even try the nerual network and it came to be beyond all expectations
-# Attention points of the stacking model can be obtained from the article mentioned at the top of the code
+# stacking a model , it can be logistic or fm, nerual network and they came to be beyond all expectations
+# attention points of the stacking model can be obtained from the article mentioned at the top of the code
 lr = LogisticRegression(C=1, penalty='l2', max_iter=100, solver='sag', multi_class='ovr')
 model_lr = lr.fit(res_data.iloc[:, 1:], res_data['f0'])
 y_train_lr = model_lr.predict_proba(res_data.iloc[:, 1:])[:, 1]
