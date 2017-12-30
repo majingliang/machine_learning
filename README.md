@@ -9,6 +9,7 @@ This project implement classic machine learning algorithms(ML). Motivations for 
 #### 1.1 fastfm
 Show how to use the package of `fast_fm` to classify the training data directly.
 #### 1.2 Fsfm
+@bolg：[FM理论解析及应用](http://shataowei.com/2017/12/04/FM理论解析及应用/)
 We rewrite fm by ourselves and focus helping people get deeper insights about FM.So we upload it to the pypi named `Fsfm`,you can downlode it if you're interested in it.
 ****
 ### 2.N-gram
