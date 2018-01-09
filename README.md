@@ -9,7 +9,7 @@ This project implement classic machine learning algorithms(ML). Motivations for 
 #### 1.1 fastfm
 Show how to use the package of `fast_fm` to classify the training data directly.
 #### 1.2 Fsfm
-@bolg：[FM理论解析及应用](http://shataowei.com/2017/12/04/FM理论解析及应用/)
+@bolg：[FM解析](http://shataowei.com/2017/12/04/FM理论解析及应用/)
 
 We rewrite fm by ourselves and focus helping people get deeper insights about FM.So we upload it to the pypi named `Fsfm`,you can downlode it if you're interested in it.
 ****
@@ -17,17 +17,17 @@ We rewrite fm by ourselves and focus helping people get deeper insights about FM
 An interview problem in 'Nlp' solved by n-gram instead of Naive Bayes.
 ****
 ### 3.Svd
-@bolg：[SVD及扩展的矩阵分解方法](http://shataowei.com/2017/08/27/SVD及扩展的矩阵分解方法/)
+@bolg：[SVD解析](http://shataowei.com/2017/08/27/SVD及扩展的矩阵分解方法/)
 #### 3.1 Matrix decomposition in linalg
 #### 3.2 Matrix decomposition with RSVD 
 ****
 ### 4.Collaborative Filtering Recommendation System 
-@bolg：[能够快速实现的协同推荐](http://shataowei.com/2017/12/01/能够快速实现的协同推荐/)
+@bolg：[协同推荐解析](http://shataowei.com/2017/12/01/能够快速实现的协同推荐/)
 #### 4.1 Base of Item
 #### 4.2 Base of User
 ****
 ### 5.Semantic recognition
-@bolg：[基于自然语言识别下的流失用户预警](http://shataowei.com/2017/08/15/基于自然语言识别下的流失用户预警/)
+@bolg：[评价文本判断用户流失倾向](http://shataowei.com/2017/08/15/基于自然语言识别下的流失用户预警/)
 #### 5.1 Jieba Process
 #### 5.2 Tf-Idf
 #### 5.3 Bp Neural Network
@@ -38,12 +38,12 @@ An interview problem in 'Nlp' solved by n-gram instead of Naive Bayes.
 ### 6.Gradient_descent
 ****
 ### 7.Smote
-@bolg：[SMOTE算法](http://shataowei.com/2017/12/01/SMOTE算法/)
+@bolg：[SMOTE解析](http://shataowei.com/2017/12/01/SMOTE算法/)
 #### 7.1 Mean of the weight  
 #### 7.2 Random scale in connected Vector
 ****
 ### 8.Frcwp
-@bolg：[风控用户识别方法](http://shataowei.com/2017/12/09/风控用户识别方法/)
+@bolg：[风控方法解析](http://shataowei.com/2017/12/09/风控用户识别方法/)
 
 It means fast risk control with python.It's a lightweight tool that automatic recognize the outliers from a large data pool. 
 
