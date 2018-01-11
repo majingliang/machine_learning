@@ -62,7 +62,7 @@ It means fast risk control with python.It's a lightweight tool that automatic re
 
 ****
 ### 10.Tsnewp
-T-distributed stochastic neighbor embedding rewrite with Python by ourselves, it's a good dimensionality reduction method.
+T-distributed stochastic neighbor embedding(t-SNE) rewrite with Python by ourselves, it's a good dimensionality reduction method.
 Add many explanation among the code.
 
 [More test data](http://lvdmaaten.github.io/tsne/).
