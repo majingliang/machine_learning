@@ -60,6 +60,10 @@ It means fast risk control with python.It's a lightweight tool that automatic re
 #### 9.4 Case showed by bagging xgboots or gbdts
 #### 9.5 How to use the trained stacking model during the online module
 
+### 10.T-sne
+T-distributed stochastic neighbor embedding rewrite by ourselves, it's a good dimensionality reduction method.
+Add many explanation among the code.
+
 
 # Requirements
 Python Environment.
