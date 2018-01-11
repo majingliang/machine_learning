@@ -1,5 +1,5 @@
 # Tsnewp
-T-distributed stochastic neighbor embedding rewrite by ourselves, it's a good dimensionality reduction method.
+T-distributed stochastic neighbor embedding rewrite with Python by ourselves, it's a good dimensionality reduction method.
 
 # Supported python versions
 - python Python 3.6
@@ -8,6 +8,11 @@ T-distributed stochastic neighbor embedding rewrite by ourselves, it's a good di
 - [numpy](https://github.com/numpy/numpy)
 
 # Documentation
+Install model
+```python
+pip install Tsnewp
+```
+
 Setup model
 ```python
 from Tsnewp import Tsnewp
