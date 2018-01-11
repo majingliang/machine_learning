@@ -65,7 +65,10 @@ It means fast risk control with python.It's a lightweight tool that automatic re
 T-distributed stochastic neighbor embedding(t-SNE) rewrite with Python by ourselves, it's a good dimensionality reduction method.
 Add many explanation among the code.
 
+[Download address](https://pypi.python.org/pypi?:action=display&name=Tsnewp&version=0.0.1)
+
 [More test data](http://lvdmaaten.github.io/tsne/).
+
 
 # Requirements
 Python Environment.
