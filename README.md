@@ -71,9 +71,10 @@ Add many explanation among the code.
 
 ****
 ### 11.Knowledge Summary
-Some question for the new hand to estimate their level of the ML、DL.What's more ,it also contains the key point which i think during my study with Andrew Ng‘s machine learning lessons（to be continued）.
+Some questions for the new hand to estimate their level of the ML、DL.
+What's more ,it also contains the key point which i think during my study with Andrew Ng's machine learning lessons（to be continued）.
 
-Also, i write some words to the new hand. Read it [写给想转行机器学习深度学习的同学](http://shataowei.com/2018/03/18/写给想转行机器学习深度学习的同学/) if you're interested in it .
+Also, I write some words to the new hand. Read it [写给想转行机器学习深度学习的同学](http://shataowei.com/2018/03/18/写给想转行机器学习深度学习的同学/) if you're interested in it .
 
 # Requirements
 Python Environment.
