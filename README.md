@@ -69,6 +69,11 @@ Add many explanation among the code.
 
 [More test data](http://lvdmaaten.github.io/tsne/).
 
+****
+### 11.Knowledge Summary
+Some question for the new hand to estimate their level of the ML、DL.What's more ,it also contains the key point which i think during my study with Andrew Ng‘s machine learning lessons（to be continued）.
+
+Also, i write some words to the new hand. Read it []() if you're interested in it .
 
 # Requirements
 Python Environment.
