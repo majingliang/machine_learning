@@ -42,7 +42,7 @@ b.分布之间的相似度
 
 - 请说明至少两种用于数据可视化（data visualization）的package。并且说明，在数据分析报告里用数据可视化的意义是什么？
 ```python
-常见：pplot2,zepplien,matplotlib
+常见：ggplot2,zeppelin,matplotlib
 
 意义：观察数据分布，熟悉数据格式，异常分布，数据之间的相似程度
 ```
