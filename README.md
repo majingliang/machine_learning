@@ -76,6 +76,16 @@ What's more ,it also contains the key point which i think during my study with A
 
 Also, I write some words to the new hand. Read it [写给想转行机器学习深度学习的同学](http://shataowei.com/2018/03/18/写给想转行机器学习深度学习的同学/) if you're interested in it .
 
+### 12.Youtube
+Following the paper 'Deep Neural Networks for YouTube Recommendations' , finished with Python.
+
+@bolg：[利用DNN做推荐的实现过程中的总结](https://zhuanlan.zhihu.com/p/38638747)
+
+@bolg：[关于'Deep Neural Networks for YouTube Recommendations'的一些思考和实现](http://shataowei.com/2018/06/26/关于'Deep%20Neural%20Networks%20for%20YouTube%20Recommendations'的一些思考和实现/)
+
+
+
+
 # Requirements
 Python Environment.
 More details getting from single project requirement.
