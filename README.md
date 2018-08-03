@@ -83,7 +83,11 @@ Following the paper 'Deep Neural Networks for YouTube Recommendations' , finishe
 
 @bolg：[关于'Deep Neural Networks for YouTube Recommendations'的一些思考和实现](http://shataowei.com/2018/06/26/关于'Deep%20Neural%20Networks%20for%20YouTube%20Recommendations'的一些思考和实现/)
 
+***
 
+### 13.FFM
+
+Sorry,too busy these days~Don't have enough time to write the bolg about it,Coming Soon.
 
 
 # Requirements
