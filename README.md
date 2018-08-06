@@ -86,8 +86,11 @@ Following the paper 'Deep Neural Networks for YouTube Recommendations' , finishe
 ***
 
 ### 13.FFM
+See More From:
 
-Sorry,too busy these days~Don't have enough time to write the bolg about it,Coming Soon.
+@bolg：[基于Tensorflow实现FFM](http://shataowei.com/2018/08/06/基于Tensorflow实现FFM/)
+
+More you may follow with interest ：**[FM部分](https://github.com/sladesha/machine_learning/tree/master/FM)**||**[deepFM部分](https://github.com/sladesha/deep_learning/tree/master/DeepFM)**
 
 
 # Requirements
