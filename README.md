@@ -92,6 +92,12 @@ See More From:
 
 More you may follow with interest ：**[FM部分](https://github.com/sladesha/machine_learning/tree/master/FM)**||**[deepFM部分](https://github.com/sladesha/deep_learning/tree/master/DeepFM)**
 
+### 14.GolVe_Classification
+See More From:
+
+@bolg：[GolVe向量化做文本分类](http://shataowei.com/2018/09/25/GolVe向量化做文本分类/)
+
+More you may follow with interest ：**[Youtube构造skn Vector](http://shataowei.com/2018/06/26/关于'Deep%20Neural%20Networks%20for%20YouTube%20Recommendations'的一些思考和实现/)**||**[N-Grams](https://github.com/sladesha/machine_learning/tree/master/n-gram)**
 
 # Requirements
 Python Environment.
