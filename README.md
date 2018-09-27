@@ -83,7 +83,7 @@ Following the paper 'Deep Neural Networks for YouTube Recommendations' , finishe
 
 @bolg：[关于'Deep Neural Networks for YouTube Recommendations'的一些思考和实现](http://shataowei.com/2018/06/26/关于'Deep%20Neural%20Networks%20for%20YouTube%20Recommendations'的一些思考和实现/)
 
-***
+****
 
 ### 13.FFM
 See More From:
@@ -91,6 +91,8 @@ See More From:
 @bolg：[基于Tensorflow实现FFM](http://shataowei.com/2018/08/06/基于Tensorflow实现FFM/)
 
 More you may follow with interest ：**[FM部分](https://github.com/sladesha/machine_learning/tree/master/FM)**||**[deepFM部分](https://github.com/sladesha/deep_learning/tree/master/DeepFM)**
+
+****
 
 ### 14.GolVe_Classification
 See More From:
